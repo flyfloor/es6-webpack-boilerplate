@@ -37,10 +37,6 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
                 loader: "babel",
             }, {
-                test: /\.jsx?$/,
-                exclude: /(node_modules|bower_components)/,
-                loader: 'babel',
-            }, {
                 test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
                 loader : 'url-loader?limit=10000&name=./font/[name].[ext]'
             }
